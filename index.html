@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <title>Super Convertissuer Js | By Norbert YEMUANG</title>
+    <link rel='stylesheet' href='./css/main.css' />
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__header">
+            <select name="" id="conversion-type">
+                <option value="no-item">Choissisez le type de conversion</option>
+                <option value="ASCII-TEXT">ASCII-TEXT</option>
+                <option value="TEXT-ASCII">TEXT-ASCII</option>
+                <option value="TEXT-BINAIRE">TEXT-BINAIRE</option>
+                <option value="BINAIRE-ASCII">BINAIRE-ASCII</option>
+                <option value="BINAIRE-ASCII">ASCII-BINAIRE</option>
+
+            </select>
+        </div>
+        <div class="container__result-section">
+            <div class="box">
+                
+                <textarea name="" id="value-conversion" cols="30" rows="10" placeholder="Merci de sélectionner le type de conversion avant de remplir ce champ." required readonly></textarea>
+                <button class="btn btn-color btn-convert btn-disabled">Convertir</button>
+            </div>
+            <div class="box">
+                
+                <textarea name="" id="result-conversion" cols="30" rows="10" placeholder="Vous verrez le résultat de la conversion ici." readonly></textarea>
+
+            </div>
+        </div>
+        <div class="gray__conversion">
+            <div class="tab-control">
+                <div class="tab tab-active">
+                    Ancien Message
+                </div>
+                <div class="tab">
+                    Nouveau Message en code gray
+                </div>
+            </div>
+            <div class="view-tab">
+                <textarea name="" id="" cols="30" rows="10" readonly></textarea>
+            </div>
+        </div>
+        <span class="about">
+            Javascript gray code web converter coded by<a href="https://frontendprofil.netlify.app/"> Norbert Yemuang Bope</a>.
+        </span>
+
+    </div>
+
+
+    <script type="module" src="./js/app.js">
+    </script>
+
+</body></html>
