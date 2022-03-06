@@ -80,7 +80,7 @@ const ConvertResult = () => {
                 if (document.querySelector('#value-conversion').value !== '') {
                     renderResult(AsciiToString(document.querySelector('#value-conversion').value.trim()))
                 }
-                document.querySelector('#value-conversion').focus()
+               
             }
             break;
             case 2: {
@@ -88,7 +88,7 @@ const ConvertResult = () => {
 
                     renderResult(StringToAscii(document.querySelector('#value-conversion').value.trim()))
                 }
-                document.querySelector('#value-conversion').focus()
+               
             }
             break;
             case 3: {
@@ -96,7 +96,7 @@ const ConvertResult = () => {
 
                     renderResult(StringToBinary(document.querySelector('#value-conversion').value.trim()))
                 }
-                document.querySelector('#value-conversion').focus()
+               
             }
             break;
             case 4: {
@@ -104,7 +104,7 @@ const ConvertResult = () => {
 
                     renderResult(BinaryToAscii(document.querySelector('#value-conversion').value.trim()))
                 }
-                document.querySelector('#value-conversion').focus()
+                
             }
             break;
             case 5: {
@@ -112,7 +112,7 @@ const ConvertResult = () => {
 
                     renderResult(AsciiToBinary(document.querySelector('#value-conversion').value.trim()))
                 }
-                document.querySelector('#value-conversion').focus()
+               
             }
             break;
             }
